@@ -7,11 +7,11 @@ import { Provider } from 'react-redux';
 
 export default function Home() {
   return (
-    <main className="min-screen flex justify-center items-center">
+    <main className="min-screen flex justify-center items-center mt-6">
       <div className="w-full max-w-3xl">
         <div className="bg-white shadow-md rounded-lg">
-          <div className="bg-gray-100 p-4 rounded-t-lg">
-            <h5 className="text-lg font-bold">Todo web application</h5>
+          <div className="bg-gray-100 p-4 rounded-t-lg flex justify-center items-center">
+            <h5 className="text-lg font-bold">To-do web application</h5>
           </div>
           <div className="p-4">
             <Provider store={store}>
