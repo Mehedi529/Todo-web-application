@@ -14,7 +14,12 @@ export const todoSlice = createSlice({
         },
 
         RemoveTodo:(state,action)=>{
-            state.value.splice(action.payload,1)
+            state.value.splice(action.payload,1);
+            const totalItems = state.value.length;
+            const totalPages = Math.ceil(totalItems / state.itemsPerPage);
+            if(state.currentPage > totalPages){
+                state.currentPage = totalPages;
+            }
         },
 
         EditTodo:(state,action)=>{
