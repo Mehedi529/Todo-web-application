@@ -1,3 +1,4 @@
+"use client";
 import { SetCurrentPage } from "@/redux/state/todoSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { TodoEditAlert } from "./TodoEditAlert";
