@@ -27,11 +27,11 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 
 ## Installation
 - Clone the repository:
-  - git clone https://github.com/Mehedi529/Todo-web-application.git
+  - `git clone https://github.com/Mehedi529/Todo-web-application.git`
 - Install dependencies:
-  - npm install
+  - `npm install`
 - Start the development server:
-  - npm run dev
+  - `npm run dev`
 
 ## Usage
 - Open the application in your browser at `http://localhost:3000`.
