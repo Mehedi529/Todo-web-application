@@ -9,7 +9,7 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 - [Live Demo](#Live-Demo)
 - [Usage](#Usage)
 - [Components](#Components)
-- [Redux](#)
+- [Redux](#Redux)
 - [Utility](#)
 <!-- - [](#) -->
 
@@ -54,3 +54,15 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
   - The `TodoEditAlert` function is a helper that shows a prompt dialog using `SweetAlert2` when the user attempts to edit a to-do item. It allows the user to update the title and description of the to-do item. If the user confirms the change, it despatches the `EditTodo` action to update the item in the Redux store.
 - `TodoList` Component
   - The `TodoList` component displays the list of to-do items with pagination.
+
+## Redux
+- Store
+  - The store is configured using Redux Toolkit's configureStore function. It loads the initial state from local storage if available, and subscribes to save the state to local storage on every state update. The store is passed to the Provider component to make the Redux state available throughout the application.
+
+- State
+  - The todoSlice is a slice of the Redux state created using Redux Toolkit's createSlice function. It contains the state for the to-do items, current page, and items per page. It also includes the following reducers:
+  - AddTodo: Adds a new to-do item to the state.
+  - RemoveTodo: Removes a to-do item from the state based on the provided index and adjusts the current page if necessary.
+  - EditTodo: Edits an existing to-do item based on the provided index, title, and description.
+  - SetCurrentPage: Sets the current page for pagination.
+  - SetItemsPerPage: Sets the number of items to display per page.
