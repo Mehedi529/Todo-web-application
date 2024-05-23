@@ -40,8 +40,7 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
   npm run dev
 
 ## Live Demo
-- You can view a live demo of the application here
-  - `https://todowebapplication-mehedihasan49265gmailcoms-projects.vercel.app/`
+- You can view a live demo of the application [here](https://todowebapplication-mehedihasan49265gmailcoms-projects.vercel.app/)
 
 ## Usage
 - Open the application in your browser at `http://localhost:3000`.
