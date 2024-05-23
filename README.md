@@ -22,18 +22,22 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 - Persist application state in browser local storage.
 
 ## Technologies Used
-- Database: Browser Local Storage
-- Designing: HTML, CSS, TailwindCSS
-- State Management: Redux
-- Development: Next.js
+- **Database**: Browser Local Storage
+- **Designing**: HTML, CSS, TailwindCSS
+- **State Management**: Redux
+- **Development**: Next.js
 
 ## Installation
 - Clone the repository:
-  - `git clone https://github.com/Mehedi529/Todo-web-application.git`
+  ```bash
+  git clone https://github.com/Mehedi529/Todo-web-application.git
+
 - Install dependencies:
-  - `npm install`
+  ```bash
+  npm install
 - Start the development server:
-  - `npm run dev`
+  ```bash
+  npm run dev
 
 ## Live Demo
 - You can view a live demo of the application here
