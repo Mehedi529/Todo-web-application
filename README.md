@@ -6,7 +6,7 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 - [Features](#Features)
 - [Technologies Used](#Technologies-Used)
 - [Installation](#Installation)
-- [Usage](#)
+- [Usage](#Usage)
 - [Components](#)
 - [Redux](#)
 - [Utility](#)
@@ -32,4 +32,12 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
   - npm install
 - Start the development server:
   - npm run dev
+
+## Usage
+- Open the application in your browser at `http://localhost:3000`.
+- Use the input fields to add new to-do items.
+- Edit or delete existing to-do items using the provided buttons.
+- Navigate through the to-do list using pagination controls.
+
+
 
