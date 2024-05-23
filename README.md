@@ -4,16 +4,11 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 
 # Table of Contents
 - [Features](#)
-  Technologies Used
-    Installation
-    Usage
-    Components
-        CreateTodo
-        TodoDeleteAlert
-        TodoEditAlert
-        TodoList
-    Redux
-        State
-        Store
-    Utility
-        LocalStorage
+- [Technologies Used](#)
+- [Installation](#)
+- [Usage](#)
+- [Components](#)
+- [Redux](#)
+- [Utility](#)
+<!-- - [](#) -->
+
