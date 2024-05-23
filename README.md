@@ -4,7 +4,7 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 
 # Table of Contents
 - [Features](#Features)
-- [Technologies Used](#TechnologiesUsed)
+- [Technologies Used](#Technologies-Used)
 - [Installation](#)
 - [Usage](#)
 - [Components](#)
