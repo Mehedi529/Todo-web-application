@@ -5,7 +5,7 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 # Table of Contents
 - [Features](#Features)
 - [Technologies Used](#Technologies-Used)
-- [Installation](#)
+- [Installation](#Installation)
 - [Usage](#)
 - [Components](#)
 - [Redux](#)
@@ -24,4 +24,12 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 - Designing: HTML, CSS, TailwindCSS
 - State Management: Redux
 - Development: Next.js
+
+## Installation
+- Clone the repository:
+  - git clone https://github.com/Mehedi529/Todo-web-application.git
+- Install dependencies:
+  - npm install
+- Start the development server:
+  - npm run dev
 
