@@ -45,7 +45,7 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 - Navigate through the to-do list using pagination controls.
 
 
-## Comonents
+## Components
 - `CreateTodo` Component
   - The `CreateTodo` component allows users to add new to-do items. It uses `useRef` to get the values of the input fields and dispatch the `AddTodo` action to the Redux store.
 - `TodoDeleteAlert` Component
