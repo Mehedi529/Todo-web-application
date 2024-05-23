@@ -10,7 +10,8 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 - [Usage](#Usage)
 - [Components](#Components)
 - [Redux](#Redux)
-- [Utility](#)
+- [Utility](#Utility)
+- [Pagination Behavior](#Pagination-Behavior)
 <!-- - [](#) -->
 
 ## Features
@@ -54,7 +55,7 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 
 - `TodoEditAlert` Component
   - The `TodoEditAlert` function is a helper that shows a prompt dialog using `SweetAlert2` when the user attempts to edit a to-do item. It allows the user to update the title and description of the to-do item. If the user confirms the change, it despatches the `EditTodo` action to update the item in the Redux store.
-  
+
 - `TodoList` Component
   - The `TodoList` component displays the list of to-do items with pagination.
 
@@ -69,3 +70,10 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
   - EditTodo: Edits an existing to-do item based on the provided index, title, and description.
   - SetCurrentPage: Sets the current page for pagination.
   - SetItemsPerPage: Sets the number of items to display per page.
+
+## Utility
+- Local Storage
+  - The local storage utility provides functions to save and load the application's state to and from the browser's local storage. This ensures that the to-do items persist even after a page refresh or when the browser is closed and reopened.
+
+## Pagination Behavior
+- The application includes functionality to automatically navigate to the previous page if all items on the current page are deleted. This ensures a smooth user experience by preventing the display of an empty page.
