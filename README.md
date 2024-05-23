@@ -13,9 +13,9 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 <!-- - [](#) -->
 
 ## Features
-- [Add new to-do items with a title and description.]
-- [Edit existing to-do items.]
-- [Delete to-do items with confirmation.]
-- [Pagination through the list of to-do items.]
-- [Persist application state in browser local storage.]
+- Add new to-do items with a title and description.
+- Edit existing to-do items.
+- Delete to-do items with confirmation.
+- Pagination through the list of to-do items.
+- Persist application state in browser local storage.
 
