@@ -4,7 +4,7 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 
 # Table of Contents
 - [Features](#Features)
-- [Technologies Used](#)
+- [Technologies Used](#Technologies Used)
 - [Installation](#)
 - [Usage](#)
 - [Components](#)
@@ -18,4 +18,10 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 - Delete to-do items with confirmation.
 - Pagination through the list of to-do items.
 - Persist application state in browser local storage.
+
+## Technologies Used
+- Database: Browser Local Storage
+- Designing: HTML, CSS, TailwindCSS
+- State Management: Redux
+- Development: Next.js
 
