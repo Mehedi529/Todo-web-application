@@ -6,6 +6,7 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
 - [Features](#Features)
 - [Technologies Used](#Technologies-Used)
 - [Installation](#Installation)
+- [Live Demo](#Live-Demo)
 - [Usage](#Usage)
 - [Components](#)
 - [Redux](#)
@@ -32,6 +33,10 @@ This project is a simple To-do web application build with Next.js, Redux, and Ta
   - `npm install`
 - Start the development server:
   - `npm run dev`
+
+## Live Demo
+- You can view a live demo of the application here
+  - `https://todowebapplication-mehedihasan49265gmailcoms-projects.vercel.app/`
 
 ## Usage
 - Open the application in your browser at `http://localhost:3000`.
